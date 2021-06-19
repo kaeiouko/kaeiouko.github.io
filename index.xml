@@ -5,7 +5,7 @@
     <link>https://kaeiouko.github.io/</link>
     <description>Recent content on KAWASEMI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Fri, 18 Jun 2021 19:31:15 +0800</lastBuildDate><atom:link href="https://kaeiouko.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Third</title>
@@ -31,7 +31,7 @@
       <pubDate>Fri, 18 Jun 2021 16:17:19 +0800</pubDate>
       
       <guid>https://kaeiouko.github.io/post/first/</guid>
-      <description>This is just a test for Hugo  test1 test2 test3  </description>
+      <description>This is just a test for Hugo test1用于测试一些没用的东西 test2 test3</description>
     </item>
     
   </channel>

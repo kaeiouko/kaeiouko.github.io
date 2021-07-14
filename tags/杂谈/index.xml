@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>杂谈 on KAWASEMI</title>
+    <link>https://kaeiouko.github.io/tags/%E6%9D%82%E8%B0%88/</link>
+    <description>Recent content in 杂谈 on KAWASEMI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Jul 2021 10:33:47 +0800</lastBuildDate><atom:link href="https://kaeiouko.github.io/tags/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>做Hugo博客时的一些想法</title>
+      <link>https://kaeiouko.github.io/post/2/</link>
+      <pubDate>Wed, 14 Jul 2021 10:33:47 +0800</pubDate>
+      
+      <guid>https://kaeiouko.github.io/post/2/</guid>
+      <description>其实最开始想做一个属于自己的博客，只是因为我长期受到国内某些垃圾博客网站的困扰。它们不仅在页面中插入了很多影响观感的广告，还有谜一样的审核机制分分钟ban掉你辛辛苦苦创作出来的内容。但是，因为本人的电</description>
+    </item>
+    
+  </channel>
+</rss>

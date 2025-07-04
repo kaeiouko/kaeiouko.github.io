@@ -2,18 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>苔色花园</title>
-    <link>http://kaeiouko.github.io/</link>
+    <link>https://kaeiouko.github.io/</link>
     <description>Recent content on 苔色花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2024, kaeiouko; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 29 Sep 2024 22:22:57 +0800</lastBuildDate><atom:link href="http://kaeiouko.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 18:06:49 +0800</lastBuildDate><atom:link href="https://kaeiouko.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whisper保姆级安装教程</title>
+      <link>https://kaeiouko.github.io/post/002/</link>
+      <pubDate>Fri, 04 Jul 2025 18:06:49 +0800</pubDate>
+      
+      <guid>https://kaeiouko.github.io/post/002/</guid>
+      <description>Whisper保姆级安装教程（面向完全不懂电脑的人） 0.准备相关电脑知识 为了成功下载Whisper，你需要会以下几种操作：
+基础的cmd命令行操作（如果你不会，去搜搜教程视频）。只需要明白命令行的用途，会在文件夹之间相互切换就可以了。
+知道什么是环境变量（如果你不知道，去搜搜教程视频，了解环境变量是用来干什么的）
+了解一下github的基础操作，同上。知道git基础命令（如commit等）怎么用，github仓库是怎么用的，branch是什么即可。
+这几点都并不难，即使你完全不懂代码，也可以在30min~1h之内学会。
+1.准备相关环境和素材 a. python
+3.9版本以上。可以在cmd中使用 python --version来确认你的python版本
+同时，选择一个合适的的python编译器（推荐VSCode）
+b. FFmpeg
+第一步：在https://ffmpeg.org/download.html 中，在左侧的“Get packages&amp;amp;executable files中，找到对应操作系统
+第二步：点击后，可以看到各种packages，随便选择一个，然后下载release即可
+eg. 对于windows操作系统，点击对应图标后，可以看到“Windows EXE Files”，进入第一个（Windows builds from gyan.dev），下拉找到“Release Builds”，点击下载ffmpeg-release-essentials.zip即可。
+第三步：解压你下载好的zip文件，并把它放到一个方便的位置。注意路径名中不要带有中文。
+第四步：打开你解压好的文件，找到一个叫做“bin”的文件夹并打开，然后在路径中右键复制路径。打开环境变量设置，找到“Path”，点击编辑。点击新建，将你复制好的bin路径右键粘贴进去。不要忘记点右下角的确认。
+第五步：打开cmd，使用ffmpeg -version来确认是否安装完毕。如果输出了“ffmpeg version 6.1&amp;hellip;&amp;hellip;”之类的字样，即为安装成功。
+你可能会遇到的问题：如果确认是否安装完毕的时候，发现输出“不是可用命令”，可能是因为你的环境变量没有添加正确。请确认第四步是否完成（添加好路径后一定要点击确认，不然不会保存）。
+c. Git
+可以在cmd中使用git --version来确认你的git版本。
+如果你以前从未接触过git，请去搜索git初始化教程视频，在安装好git后按照教程指示初始化
+d.Pytorch（这可能是最难的一步！但是别紧张）
+第一步：打开官网：https://pytorch.org/
+第二步：点击红色的“Get started”
+第三步：此时你会看到，“Start Locally”下面有一堆选项。这些选项都是什么意思呢？
+第四步：如果你已经下载好了Python，且使用的是Nvidia卡（如何检查：打开cmd，输入nvidia -smi，如果输出显卡型号如RTX 3060，还输出了CUDA版本如Version12.3，就没问题），那么，你只需要选择“Stable-你的操作系统-Pip-Python-CUDA 11.8，然后将下方的”Run this Command“粘贴进cmd运行，等待下载完毕即可。
+如果没有显示CUDA版本，那你就只能选CPU了。运行的时候，会比用CUDA的慢一些。
+第五步：打开Python编译器（如VSCode，输入import torchprint(torch.cuda.is_available())print(torch.cuda.get_device_name(0))
+如果输出 True NVIDIA GeForce RTX xxxx 则Pytorch安装成功。
+2.下载Whisper（这是最后的一步！也是很简单的一步） 第一步：打开https://github.com/openai/whisper
+第二步：下拉看到README，继续下拉看到“Setup”
+第三步：复制第一个格子块里的代码（pip install -U openai-whisper），粘贴进cmd，运行，等待下载完毕即可。</description>
+    </item>
+    
     <item>
       <title>Test1</title>
-      <link>http://kaeiouko.github.io/post/test1/</link>
+      <link>https://kaeiouko.github.io/post/test1/</link>
       <pubDate>Sun, 29 Sep 2024 22:22:57 +0800</pubDate>
       
-      <guid>http://kaeiouko.github.io/post/test1/</guid>
+      <guid>https://kaeiouko.github.io/post/test1/</guid>
       <description>季刊Ace VOL.82 出水明日香（出水ぽすか）访谈 出水ぽすか 漫画家、插画家。2016年在周刊少年JUMP+上刊载了读切作品【波比的心愿】，同年开始在周刊少年JUMP上连载约定的梦幻岛。约岛于4年后的2022年6月15日完结。除此之外，还出版了两本个人画集PONE和POSTCARD PLANET。 Twitter id=@DemizuPosuka Pixiv id：33333
 出水老师所描绘的是龙、兽人、有角的魔物、人类等各种各样的生物往来不断的不可思议的世界。
 在这个世界中，角色们有时在街上四处奔走、寻觅美食；有时乘上巨大的船只，卷入各种各样的事件…..
@@ -24,46 +62,46 @@
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://kaeiouko.github.io/post/markdown-syntax/</link>
+      <link>https://kaeiouko.github.io/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://kaeiouko.github.io/post/markdown-syntax/</guid>
+      <guid>https://kaeiouko.github.io/post/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Placeholder Text</title>
-      <link>http://kaeiouko.github.io/post/placeholder-text/</link>
+      <link>https://kaeiouko.github.io/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://kaeiouko.github.io/post/placeholder-text/</guid>
+      <guid>https://kaeiouko.github.io/post/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Math Typesetting</title>
-      <link>http://kaeiouko.github.io/post/math-typesetting/</link>
+      <link>https://kaeiouko.github.io/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://kaeiouko.github.io/post/math-typesetting/</guid>
+      <guid>https://kaeiouko.github.io/post/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Emoji Support</title>
-      <link>http://kaeiouko.github.io/post/emoji-support/</link>
+      <link>https://kaeiouko.github.io/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://kaeiouko.github.io/post/emoji-support/</guid>
+      <guid>https://kaeiouko.github.io/post/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://kaeiouko.github.io/about/</link>
+      <link>https://kaeiouko.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://kaeiouko.github.io/about/</guid>
+      <guid>https://kaeiouko.github.io/about/</guid>
       <description>test article　中文
 にほんご
 https://github.com/yuin/goldmark https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.

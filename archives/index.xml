@@ -2,45 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archives on 苔色花园</title>
-    <link>http://kaeiouko.github.io/archives/</link>
+    <link>https://kaeiouko.github.io/archives/</link>
     <description>Recent content in Archives on 苔色花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2024, kaeiouko; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 29 Sep 2024 22:22:57 +0800</lastBuildDate><atom:link href="http://kaeiouko.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 18:06:49 +0800</lastBuildDate><atom:link href="https://kaeiouko.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025</title>
+      <link>https://kaeiouko.github.io/archives/2025/</link>
+      <pubDate>Fri, 04 Jul 2025 18:06:49 +0800</pubDate>
+      
+      <guid>https://kaeiouko.github.io/archives/2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2025-07</title>
+      <link>https://kaeiouko.github.io/archives/2025-07/</link>
+      <pubDate>Fri, 04 Jul 2025 18:06:49 +0800</pubDate>
+      
+      <guid>https://kaeiouko.github.io/archives/2025-07/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>2024</title>
-      <link>http://kaeiouko.github.io/archives/2024/</link>
+      <link>https://kaeiouko.github.io/archives/2024/</link>
       <pubDate>Sun, 29 Sep 2024 22:22:57 +0800</pubDate>
       
-      <guid>http://kaeiouko.github.io/archives/2024/</guid>
+      <guid>https://kaeiouko.github.io/archives/2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2024-09</title>
-      <link>http://kaeiouko.github.io/archives/2024-09/</link>
+      <link>https://kaeiouko.github.io/archives/2024-09/</link>
       <pubDate>Sun, 29 Sep 2024 22:22:57 +0800</pubDate>
       
-      <guid>http://kaeiouko.github.io/archives/2024-09/</guid>
+      <guid>https://kaeiouko.github.io/archives/2024-09/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2019</title>
-      <link>http://kaeiouko.github.io/archives/2019/</link>
+      <link>https://kaeiouko.github.io/archives/2019/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://kaeiouko.github.io/archives/2019/</guid>
+      <guid>https://kaeiouko.github.io/archives/2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2019-03</title>
-      <link>http://kaeiouko.github.io/archives/2019-03/</link>
+      <link>https://kaeiouko.github.io/archives/2019-03/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://kaeiouko.github.io/archives/2019-03/</guid>
+      <guid>https://kaeiouko.github.io/archives/2019-03/</guid>
       <description></description>
     </item>
     

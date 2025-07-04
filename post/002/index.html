@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Whisper保姆级安装教程 - 苔色花园</title>
+<meta name="description" content="This is a simple blog theme for Hugo.">
+
+<meta name="author" content="">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?c=7a94523abf1311ac9abb14c2a8d14dc512d5f4c5">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png?c=7a94523abf1311ac9abb14c2a8d14dc512d5f4c5">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?c=7a94523abf1311ac9abb14c2a8d14dc512d5f4c5">
+<link rel="alternate" href="/index.xml?c=7a94523abf1311ac9abb14c2a8d14dc512d5f4c5" type="application/rss+xml" title="RSS" />
+<meta property="og:title" content="Whisper保姆级安装教程 - 苔色花园">
+</meta>
+<meta property="og:url" content="https://kaeiouko.github.io/post/002/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="苔色花园">
+<meta property="og:description" content="This is a simple blog theme for Hugo.">
+
+<meta property="og:image" content="https://kaeiouko.github.io/images/og/002.png">
+
+<meta name="twitter:card" content="summary_large_image" /></meta>
+<meta name="twitter:site" content="@GoHugoIO"></meta>
+<meta name="twitter:creator" content="@GoHugoIO"></meta>
+<meta name="twitter:title" content="Whisper保姆级安装教程 - 苔色花园"></meta>
+<meta name="twitter:url" content="https://kaeiouko.github.io/post/002/"></meta>
+<meta name="twitter:description" content="This is a simple blog theme for Hugo."></meta>
+
+<meta property="og:image" content="https://kaeiouko.github.io/images/og/002.png">
+
+
+<link rel="stylesheet" href="/css/main.css?c=7a94523abf1311ac9abb14c2a8d14dc512d5f4c5">
+<link rel="stylesheet" href="/css/color.css?c=7a94523abf1311ac9abb14c2a8d14dc512d5f4c5">
+
+
+
+
+</head>
+
+<body class="theme-blue">
+
+
+<div id="content-header" class="title">
+  
+  <a class="site-title" href="/">苔色花园</a>
+  
+  <span class="site-sub-title"> / from a garden to the wilderness</span>
+
+  
+  <div id="header-image-area">
+    <img class="header-image" src="/images/testimage.jpg?c=7a94523abf1311ac9abb14c2a8d14dc512d5f4c5">
+  </div>
+  
+
+  <div id="main-menu-nav">
+    <div id="main-menu-nav-items">
+      
+        <div class="nav-item"><a href="/about/">About</a></div>
+      
+        <div class="nav-item"><a href="/tags/">Tags</a></div>
+      
+        <div class="nav-item"><a href="/categories/">Categories</a></div>
+      
+        <div class="nav-item"><a href="/archives/">Archives</a></div>
+      
+    </div>
+  </div>
+</div>
+<div id="content" class="main">
+
+
+
+
+<h2>Whisper保姆级安装教程</h2>
+
+<span class="sub">2025-07-04</span>
+
+
+
+
+
+
+
+
+<h1 id="whisper保姆级安装教程面向完全不懂电脑的人">Whisper保姆级安装教程（面向完全不懂电脑的人）</h1>
+<h3 id="0准备相关电脑知识">0.准备相关电脑知识</h3>
+<p>为了成功下载Whisper，你需要会以下几种操作：</p>
+<ul>
+<li>
+<p>基础的cmd命令行操作（如果你不会，去搜搜教程视频）。只需要明白命令行的用途，会在文件夹之间相互切换就可以了。</p>
+</li>
+<li>
+<p>知道什么是环境变量（如果你不知道，去搜搜教程视频，了解环境变量是用来干什么的）</p>
+</li>
+<li>
+<p>了解一下github的基础操作，同上。知道git基础命令（如commit等）怎么用，github仓库是怎么用的，branch是什么即可。</p>
+</li>
+</ul>
+<p>这几点都并不难，即使你完全不懂代码，也可以在30min~1h之内学会。</p>
+<h3 id="1准备相关环境和素材">1.准备相关环境和素材</h3>
+<p>a. python</p>
+<ul>
+<li>
+<p>3.9版本以上。可以在cmd中使用 <code>python --version</code>来确认你的python版本</p>
+</li>
+<li>
+<p>同时，选择一个合适的的python编译器（推荐VSCode）</p>
+</li>
+</ul>
+<p>b. FFmpeg</p>
+<ul>
+<li>
+<p>第一步：在https://ffmpeg.org/download.html 中，在左侧的“Get packages&amp;executable files中，找到对应操作系统</p>
+</li>
+<li>
+<p>第二步：点击后，可以看到各种packages，随便选择一个，然后下载release即可</p>
+</li>
+</ul>
+<p>eg. 对于windows操作系统，点击对应图标后，可以看到“Windows EXE Files”，进入第一个（Windows builds from gyan.dev），下拉找到“Release Builds”，点击下载ffmpeg-release-essentials.zip即可。</p>
+<ul>
+<li>
+<p>第三步：解压你下载好的zip文件，并把它放到一个方便的位置。注意路径名中不要带有中文。</p>
+</li>
+<li>
+<p>第四步：打开你解压好的文件，找到一个叫做“bin”的文件夹并打开，然后在路径中右键复制路径。打开环境变量设置，找到“Path”，点击编辑。点击新建，将你复制好的bin路径右键粘贴进去。不要忘记点右下角的确认。</p>
+</li>
+<li>
+<p>第五步：打开cmd，使用<code>ffmpeg -version</code>来确认是否安装完毕。如果输出了“ffmpeg version 6.1&hellip;&hellip;”之类的字样，即为安装成功。</p>
+</li>
+</ul>
+<p>你可能会遇到的问题：如果确认是否安装完毕的时候，发现输出“不是可用命令”，可能是因为你的环境变量没有添加正确。请确认第四步是否完成（添加好路径后一定要点击确认，不然不会保存）。</p>
+<p>c. Git</p>
+<ul>
+<li>
+<p>可以在cmd中使用<code>git --version</code>来确认你的git版本。</p>
+</li>
+<li>
+<p>如果你以前从未接触过git，请去搜索git初始化教程视频，在安装好git后按照教程指示初始化</p>
+</li>
+</ul>
+<p>d.Pytorch（这可能是最难的一步！但是别紧张）</p>
+<ul>
+<li>
+<p>第一步：打开官网：https://pytorch.org/</p>
+</li>
+<li>
+<p>第二步：点击红色的“Get started”</p>
+</li>
+<li>
+<p>第三步：此时你会看到，“Start Locally”下面有一堆选项。这些选项都是什么意思呢？</p>
+</li>
+<li>
+<p>第四步：如果你已经下载好了Python，且使用的是Nvidia卡（如何检查：打开cmd，输入<code>nvidia -smi</code>，如果输出显卡型号如RTX 3060，还输出了CUDA版本如Version12.3，就没问题），那么，你只需要选择“Stable-你的操作系统-Pip-Python-CUDA 11.8，然后将下方的”Run this Command“粘贴进cmd运行，等待下载完毕即可。</p>
+</li>
+<li>
+<p>如果没有显示CUDA版本，那你就只能选CPU了。运行的时候，会比用CUDA的慢一些。</p>
+</li>
+<li>
+<p>第五步：打开Python编译器（如VSCode，输入<code>import torch print(torch.cuda.is_available()) print(torch.cuda.get_device_name(0))</code></p>
+</li>
+</ul>
+<p>如果输出
+<code>True NVIDIA GeForce RTX xxxx</code>
+则Pytorch安装成功。</p>
+<h3 id="2下载whisper这是最后的一步也是很简单的一步">2.下载Whisper（这是最后的一步！也是很简单的一步）</h3>
+<ul>
+<li>
+<p>第一步：打开https://github.com/openai/whisper</p>
+</li>
+<li>
+<p>第二步：下拉看到README，继续下拉看到“Setup”</p>
+</li>
+<li>
+<p>第三步：复制第一个格子块里的代码（<code>pip install -U openai-whisper</code>），粘贴进cmd，运行，等待下载完毕即可。</p>
+</li>
+<li>
+<p>第四步：在cmd中输入<code>whisper --help</code>，如果输出了一堆信息，则说明安装成功。</p>
+</li>
+</ul>
+<h3 id="3使用whisper">3.使用Whisper</h3>
+<ul>
+<li>
+<p>第一步：准备一个音频或视频文件，比如myvideo.mp4</p>
+</li>
+<li>
+<p>第二步：把这个文件放在一个方便，路径无中文的地方</p>
+</li>
+<li>
+<p>第三步：打开cmd，输入命令，具体地：
+<code>whisper myvideo.mp4 --model small --language English --output_format txt</code></p>
+</li>
+</ul>
+<p>myvideo.mp4为你的文件名</p>
+<p>model有tiny，base，small，medium，large可选，越往右，精度越高。一般推荐medium</p>
+<p>language为文件对应语种，一般的语种都有，使用全称即可（如English，French，Chinese(CN)，Chinese(HK)等）</p>
+<p>output_format，如果不写，默认输出srt（常用的字幕格式），json，tsv，txt，vtt这五个文件至你的音频文件的位置，如果你指定某种格式，会仅输出这种格式的文件</p>
+<h3 id="至此开心使用吧">至此，开心使用吧！</h3>
+
+
+
+
+
+
+<hr class="block-separater">
+
+
+
+
+
+
+
+
+
+
+<div class="content-footer-item neighbor">
+	
+	<div class="prev-post">Prev: <a href="/post/test1/">Test1</a></div>
+	
+	
+</div>
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+<script src="/js/single.js"></script>
+
+
+
+
+
+	</div><div id="content-footer" class="sub">
+  Copyright © 2024, kaeiouko; all rights reserved.
+  <div class="credit">
+    Power by <a href="https://gohugo.io">Hugo</a> /
+    Theme <a href="https://github.com/michimani/simplog/">simplog</a> by <a href="https://github.com/michimani/">michimani</a>
+  </div>
+</div></body>
+
+</html>
